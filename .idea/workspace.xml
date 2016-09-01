@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3987e67-e5ec-4b8c-bd1a-3d1ff549b8a4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson_2/lesson_2.txt" afterPath="$PROJECT_DIR$/lesson_2/lesson_2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson_3/lesson_3.txt" afterPath="$PROJECT_DIR$/lesson_3/lesson_3.txt" />
     </list>
     <ignored path="html_lesson.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,8 +23,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lesson_2.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson_2/lesson_2.txt">
+      <file leaf-file-name="lesson_3.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson_3/lesson_3.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -42,11 +42,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lesson_2/lesson_2.html" />
-        <option value="$PROJECT_DIR$/lesson_3/lesson_3.txt" />
         <option value="$PROJECT_DIR$/lesson_3/lesson_3.html" />
         <option value="$PROJECT_DIR$/lesson_4/lesson_4.txt" />
         <option value="$PROJECT_DIR$/lesson_4/lesson_4.html" />
         <option value="$PROJECT_DIR$/lesson_2/lesson_2.txt" />
+        <option value="$PROJECT_DIR$/lesson_3/lesson_3.txt" />
       </list>
     </option>
   </component>
@@ -118,20 +118,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lesson_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html_lesson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html_lesson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson_2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,12 +216,12 @@
       <workItem from="1472620261055" duration="284000" />
       <workItem from="1472622715206" duration="503000" />
       <workItem from="1472630740802" duration="2658000" />
-      <workItem from="1472692378824" duration="568000" />
+      <workItem from="1472692378824" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12635000" />
+    <option name="totallyTimeSpent" value="12661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -313,6 +299,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -327,6 +314,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -341,6 +329,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -355,13 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_3/lesson_3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -407,6 +389,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson_2/lesson_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/lesson_3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
