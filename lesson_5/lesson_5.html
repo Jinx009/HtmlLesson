@@ -3,7 +3,76 @@
         <meta charset="utf-8">
         <title>第五章</title>
     </head>
-    <body>
+    <!-- 注释可以写在页面的任何地方,
+         body里面的元素包含body都可以添加样式style-->
+    <!-- 可以使用像素px表示宽度,高度,字体大小,
+         宽度和高度也可以使用百分之多少来代替,
+         百分数是针对于它的父级标签,而呈现中
+         body可以认为是最父级标签
+         所以body的百分比是针对于整个屏幕当前可见区域
+         拖动,缩放暂时除外-->
+    <!-- 下方代表最大父级body,
+         宽度和高度等于当前浏览器可见区域
+         背景色为金色
+         另外每一个div框结束的时候默认是表示可以换行的-->
+    <body style="
+        width: 100%;
+        height: 100%;
+        background: gold;" >
+        <!-- 先定义一个具有背景色框
+             背景色为红色,我们控制它在浏览器中的位置-->
+        <!-- 下方引入到了
+             margin-left表示div元素外边框
+             距左边临近元素这里代表body的距离
+             margin-top表示div元素外边框
+             距临近元素上边边框的距离;
+             这个div上方没有其他元素
+             所以就是距离body的上方边框距离
+             -->
+        <div style="
+            background: red;
+            width: 100px;
+            height:100px;
+            margin-left: 100px;
+            margin-top: 20px;" >
+            我居左边100像素,居上面100像素
+        </div>
+        <!-- 下方的div当做是上方div的参照物
+             margin-left表示div元素外边框
+             距左边临近元素这里代表body的距离
+             margin-top表示div元素外边框
+             距临近元素上边边框的距离;
+             这里表示居上方div下边框的距离-->
+        <div style="
+            background: red;
+            width: 100px;
+            height: 100px;
+            margin-left: 300px;
+            margin-top: 50px;" >
+            我居左边300像素,居上面50像素
+        </div>
 
+        <!-- 下方引入了两个新的属性
+            padding-left表示
+            div里面的内容距div内边框左边的距离
+            padding-top表示
+            div里面的内容距div内边框上方的距离-->
+        <div style="
+            margin-top:200px;
+            background: green;
+            width: 50px;
+            height: 50px;
+            margin-left: 10px;
+            padding-left: 10px;
+            padding-top: 20px;" >我在div的位置</div>
+        <!-- 下方div作为上方div的参照 -->
+        <div style="
+            margin-top:20px;
+            background: green;
+            width: 50px;
+            height: 50px;
+            margin-left: 20px;
+            padding-left: 20px;
+            padding-top: 40px;" >我在div的位置</div>
     </body>
 </html>
