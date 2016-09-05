@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>第六章</title>
+    </head>
+        <!-- position表示定位,也是样式的一种,
+        放在style里面主要有三个属性值:
+        fixed.absolute,relative;
+        这三个属性需与top,left,bottom,right
+        这四个样式配合使用,因为定位必须
+        要有位置的确定,这点和margin-left
+        margin-right,margin-top,margin-bottom
+        的使用方法大致一样-->
+
+        <!-- 先放一个占位框,作为参照物 -->
+        <div style="height: 200px;" ></div>
+
+        <!-- 第一种属性:fixed;
+         表示绝对定位,相当于针对于浏览器
+         当前窗口位置进行定位;
+         无论网页如何滚动,该组件位置不变-->
+        <div style="width: 100%;
+            height: 20px;
+            position: fixed;
+            left: 0px;
+            top: 10px;
+            background: rebeccapurple;
+            color: white;
+            font-size: 22px;" >
+            我永远都在这里
+        </div>
+
+        <!-- 作为定位的父级参照物 -->
+        <div style="background: brown;
+            width: 100%;
+            height: 100px;" >
+            <!-- absolute表示相对于第一个父级
+             进行定位,如果第一个父级没有postion重
+             本次说的三个属性,
+             那么它相对于父级的再一个父级进行定位
+             这里即是body-->
+            <div style="height: 20px;
+            width: 80%;
+            left: 20%;
+            top: 20px;
+            background: white;
+            color: black;
+            position: absolute;
+            font-size: 22px;" >
+                我想对于我的父级定位
+            </div>
+        </div>
+
+    <!-- 作为定位的父级参照物 -->
+    <div style="background: brown;
+            width: 100%;
+            height: 100px;
+            top: 400px;
+            left: 0px;
+            position: absolute;" >
+        <!-- absolute表示相对于第一个父级
+         进行定位,如果第一个父级没有postion重
+         本次说的三个属性,
+         那么它相对于父级的再一个父级进行定位
+         这里即是第一个父级div-->
+        <div style="height: 20px;
+            width: 80%;
+            left: 20%;
+            top: 20px;
+            background: white;
+            color: black;
+            position: absolute;
+            font-size: 22px;" >
+            我想对于我的父级定位
+        </div>
+    </div>
+
+        <!-- relative属性表示相对定位
+         使用方法和margin非常类似-->
+        <div style="position: relative;
+            top:10px;
+            left: 20%;
+            background: greenyellow;
+            height: 30px;
+            color: white;
+            width: 60%;
+            font-size: 22px;" >
+            我是相对定位
+        </div>
+    </body>
+</html>
