@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>第七章</title>
+    </head>
+        <!-- position:fixed与padding混用 -->
+        <div style="position: fixed;
+                    left: 0px;
+                    top: 10px;
+                    width: 100%;
+                    height: 30px;
+                    padding-top: 5px;
+                    padding-left: 30px;
+                    font-size: 16px;
+                    background: black;
+                    color: white;" >
+                我永远在这里
+        </div>
+
+        <!-- 第一个父级元素不是absolute,fixed,relative
+         的position:absolute与padding混用-->
+        <div style="background:red;
+                    height: 250px;
+                    width: 100%;
+                    color: white;
+                    font-size: 16px;" >
+            <div style="position: absolute;
+                        background:greenyellow;
+                        width:100%;
+                        height: 20px;
+                        color: red;
+                        font-size: 16px;
+                        top: 60px;
+                        left: 0px;
+                        padding-top: 10px;
+                        padding-left: 20px;">
+                position:absolute001
+            </div>
+        </div>
+
+        <!-- 第一个父级元素有postion常用三属性
+         与padding混用-->
+        <div style="position: absolute;
+                    top: 200px;
+                    left: 30px;
+                    width: 80%;
+                    height: 100px;
+                    background: blueviolet;" >
+            <div style="position: absolute;
+                        background:greenyellow;
+                        width:100%;
+                        height: 20px;
+                        color: red;
+                        font-size: 16px;
+                        top: 60px;
+                        left: 0px;
+                        padding-top: 10px;
+                        padding-left: 20px;">
+                position:absolute002
+            </div>
+        </div>
+    </body>
+</html>
